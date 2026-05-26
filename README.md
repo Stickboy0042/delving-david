@@ -1,16 +1,43 @@
-# Delving David
+# Delving David - HTML5 Build
 
-Mac build of the current Delving David GameMaker prototype.
+HTML5 build of the current Delving David GameMaker prototype.
 
-![Latest build screenshot](latest-build-screenshot.png)
+This branch contains the browser-based version. The Mac DMG build is on the `main` branch.
 
 ## Download
 
-[Download Delving David.dmg](Delving%20David.dmg)
+[Download Delving_David_HTML5.zip](Delving_David_HTML5.zip)
 
-Open the DMG, then drag `Delving David.app` into Applications.
+Unzip the package first, then use the launcher for your platform.
 
-macOS may show a security warning because this prototype build is ad-hoc signed and not notarized with Apple Developer ID. If needed, right-click the app and choose Open.
+## Launch Steps
+
+### macOS
+
+1. Unzip `Delving_David_HTML5.zip`.
+2. Double-click `Launch Delving David.app`.
+3. Your browser opens automatically.
+4. Quit the launcher app to stop the local server.
+
+macOS may show a security warning because this prototype launcher is ad-hoc signed and not notarized with Apple Developer ID. If needed, right-click the app and choose Open.
+
+### Windows
+
+1. Unzip `Delving_David_HTML5.zip`.
+2. Double-click `Launch Delving David (Windows).cmd`.
+3. Your browser opens automatically.
+4. Close the command window to stop the local server.
+
+Optional: run `Create Windows Desktop Shortcut.cmd` to create a desktop shortcut using the game favicon. Windows does not allow a plain `.cmd` file itself to have a custom icon.
+
+### Linux
+
+1. Unzip `Delving_David_HTML5.zip`.
+2. Run `Launch Delving David (Linux).sh`.
+3. Your browser opens automatically if `xdg-open` or `sensible-browser` is available.
+4. Close the terminal window or press Control-C to stop the local server.
+
+Optional: run `Install Linux Desktop Shortcut.sh` to create an icon-bearing desktop shortcut.
 
 ## Patch Notes - May 26, 2026
 
@@ -25,4 +52,4 @@ macOS may show a security warning because this prototype build is ad-hoc signed 
 
 ## Distribution Notes
 
-This repo is being used as a lightweight build-sharing repo. For a larger release workflow, the cleaner GitHub pattern is to keep source code in the main project repo and attach DMG files to versioned GitHub Releases instead of committing every binary build into Git history.
+This repo is being used as a lightweight build-sharing repo. For a larger release workflow, the cleaner GitHub pattern is to keep source code in the main project repo and attach platform builds to versioned GitHub Releases instead of committing every binary build into Git history.

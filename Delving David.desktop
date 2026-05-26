@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Delving David
+Comment=Launch Delving David HTML5
+Exec=sh -c 'cd "$(dirname "$1")" && ./Launch\ Delving\ David\ \(Linux\).sh' launcher %k
+Icon=./launcher/icons/DelvingDavid.png
+Terminal=true
+Categories=Game;
