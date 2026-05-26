@@ -4,6 +4,8 @@ HTML5 build of the current Delving David GameMaker prototype.
 
 This branch contains the browser-based version. The Mac DMG build is on the `main` branch.
 
+![Latest build screenshot](latest-build-screenshot.png)
+
 ## Download
 
 [Download Delving_David_HTML5.zip](Delving_David_HTML5.zip)
@@ -41,14 +43,11 @@ Optional: run `Install Linux Desktop Shortcut.sh` to create an icon-bearing desk
 
 ## Patch Notes - May 26, 2026
 
-- Added a sprint attack blade-flurry visual so the stronger attack has a clearer cone-shaped effect.
-- Matched the sprint attack hitbox timing to the flurry/dash window so enemies can be hit during the dash.
-- Made sprint attacks cost more stamina and grant brief temporary invincibility.
-- Increased sprint attack usability by widening the attack area while reducing overgenerous origin coverage.
-- Updated idle and walking attacks so the player turns toward the mouse click before attacking.
-- Kept sprint attacks locked to the current movement/facing direction.
-- Improved slime AI threat behavior with longer detection range, faster chase movement, faster chase hopping, and better obstacle steering around buildings.
-- Restored the previous retro-bedroom splash art.
+- Added generated sound effects for footsteps, sword swings, slime hops, sprint blade flurry attacks, and backsteps.
+- Added proximity-based slime hop audio so off-screen enemies stay quiet and nearby slimes get louder.
+- Added loopable field music with a tunable `music_volume` control.
+- Kept SFX controls volume-only for now; pitch controls were removed because GameMaker pitch changes playback speed.
+- Updated the HTML build so music starts after first player input, matching browser autoplay requirements.
 
 ## Distribution Notes
 
