@@ -41,13 +41,13 @@ Optional: run `Create Windows Desktop Shortcut.cmd` to create a desktop shortcut
 
 Optional: run `Install Linux Desktop Shortcut.sh` to create an icon-bearing desktop shortcut.
 
-## Patch Notes - May 26, 2026
+## Patch Notes - May 27, 2026
 
-- Added generated sound effects for footsteps, sword swings, slime hops, sprint blade flurry attacks, and backsteps.
-- Added proximity-based slime hop audio so off-screen enemies stay quiet and nearby slimes get louder.
-- Added loopable field music with a tunable `music_volume` control.
-- Kept SFX controls volume-only for now; pitch controls were removed because GameMaker pitch changes playback speed.
-- Updated the HTML build so music starts after first player input, matching browser autoplay requirements.
+- Replaced the placed village buildings and tents with five generated fantasy house assets.
+- Added two generated vendor stall props to the town layout.
+- Registered the generated houses as GameMaker sprite/object resources under the Buildings organization.
+- Kept the new buildings on the existing collision/depth/fade behavior path.
+- Refreshed the HTML5 build from the latest GameMaker project state and cleaned stray Finder metadata from the organized build folders.
 
 ## Distribution Notes
 
