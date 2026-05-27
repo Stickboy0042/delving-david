@@ -14,11 +14,13 @@ macOS may show a security warning because this prototype build is ad-hoc signed 
 
 ## Patch Notes - May 27, 2026
 
-- Replaced the placed village buildings and tents with five generated fantasy house assets.
-- Added two generated vendor stall props to the town layout.
-- Registered the generated houses as GameMaker sprite/object resources under the Buildings organization.
-- Kept the new buildings on the existing collision/depth/fade behavior path.
-- Refreshed the Mac build from the latest GameMaker project state and cleaned stray Finder metadata from the organized build folders.
+- Added jump movement on `Space`, with stamina cost and separate player/shadow rendering.
+- Added the `Q` flurry ability and `E` ground stomp ability with cooldown icons near the player stats UI.
+- Added a generated ground stomp shockwave animation, stomp impact sound, and stronger camera shake on landing.
+- Made the player invulnerable while airborne during ground stomp.
+- Refined player and enemy knockback easing so hits slide to a smoother stop.
+- Cleaned up the in-game debug tools menu, including clearer toggle states and cooldown testing.
+- Rebuilt the Mac DMG from the latest GameMaker project state.
 
 ## Distribution Notes
 
