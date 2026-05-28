@@ -20,6 +20,11 @@ macOS may show a security warning because this prototype build is ad-hoc signed 
 - Made the player invulnerable while airborne during ground stomp.
 - Refined player and enemy knockback easing so hits slide to a smoother stop.
 - Cleaned up the in-game debug tools menu, including clearer toggle states and cooldown testing.
+- Rebuilt the player stats HUD with swappable portrait art, separate health/stamina/mana bars, and scalable ability icon layout.
+- Added red and blue loot drops from defeated slimes, with top-down pop, bounce, slide, idle float, and eased pickup motion.
+- Added top-left loot counters and a debug option to kill all enemies and force loot drops.
+- Added a one-second pickup delay after loot drops so rewards remain visible before being collected.
+- Fixed the upward idle animation disappearing by stretching the valid up-facing idle frames.
 - Rebuilt the Mac DMG from the latest GameMaker project state.
 
 ## Distribution Notes
