@@ -12,20 +12,13 @@ Open the DMG, then drag `Delving David.app` into Applications.
 
 macOS may show a security warning because this prototype build is ad-hoc signed and not notarized with Apple Developer ID. If needed, right-click the app and choose Open.
 
-## Patch Notes - May 27, 2026
+## Patch Notes - May 28, 2026
 
-- Added jump movement on `Space`, with stamina cost and separate player/shadow rendering.
-- Added the `Q` flurry ability and `E` ground stomp ability with cooldown icons near the player stats UI.
-- Added a generated ground stomp shockwave animation, stomp impact sound, and stronger camera shake on landing.
-- Made the player invulnerable while airborne during ground stomp.
-- Refined player and enemy knockback easing so hits slide to a smoother stop.
-- Cleaned up the in-game debug tools menu, including clearer toggle states and cooldown testing.
-- Rebuilt the player stats HUD with swappable portrait art, separate health/stamina/mana bars, and scalable ability icon layout.
-- Added red and blue loot drops from defeated slimes, with top-down pop, bounce, slide, idle float, and eased pickup motion.
-- Added top-left loot counters and a debug option to kill all enemies and force loot drops.
-- Added a one-second pickup delay after loot drops so rewards remain visible before being collected.
-- Fixed the upward idle animation disappearing by stretching the valid up-facing idle frames.
-- Rebuilt the Mac DMG from the latest GameMaker project state.
+- Stabilized player attack impact timing so damage, enemy red flash, hitstop, and attack SFX all fire from the same resolved hit frame.
+- Locked attack sprite and hit-frame timing once per swing to prevent later hits from drifting.
+- Tuned default combat feel: normal attack hit frame, normal hitstop, flurry hitstop, and ground stomp hitstop.
+- Preserved the sustained flurry attack window while keeping normal sword swings to a single impact timing event.
+- Rebuilt the Mac DMG from the current GameMaker project state.
 
 ## Distribution Notes
 
