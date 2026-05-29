@@ -3,7 +3,7 @@ Delving David HTML5 Launchers
 
 Use the launcher for your platform from this folder:
 
-- macOS: double-click "Launch Delving David.app"
+- macOS: double-click "run_local_server.command"
 - Windows: double-click "Launch Delving David (Windows).cmd"
 - Linux: double-click or run "Launch Delving David (Linux).sh"
 
