@@ -1,6 +1,6 @@
-# Delving David
+# Delving David - Mac Build
 
-Mac build of the current Delving David GameMaker prototype.
+Mac DMG build artifact for the current Delving David prototype.
 
 ![Latest build screenshot](latest-build-screenshot.png)
 
@@ -8,18 +8,16 @@ Mac build of the current Delving David GameMaker prototype.
 
 [Download Delving David.dmg](Delving%20David.dmg)
 
-Open the DMG, then drag `Delving David.app` into Applications.
+## Launching
 
-macOS may show a security warning because this prototype build is ad-hoc signed and not notarized with Apple Developer ID. If needed, right-click the app and choose Open.
+Open the DMG, drag or launch `Delving David.app`, and allow macOS security prompts if needed. This local build is ad-hoc signed for testing and sharing.
 
-## Patch Notes - May 28, 2026
+## Patch Notes - May 30, 2026
 
-- Stabilized player attack impact timing so damage, enemy red flash, hitstop, and attack SFX all fire from the same resolved hit frame.
-- Locked attack sprite and hit-frame timing once per swing to prevent later hits from drifting.
-- Tuned default combat feel: normal attack hit frame, normal hitstop, flurry hitstop, and ground stomp hitstop.
-- Preserved the sustained flurry attack window while keeping normal sword swings to a single impact timing event.
-- Rebuilt the Mac DMG from the current GameMaker project state.
-
-## Distribution Notes
-
-This repo is being used as a lightweight build-sharing repo. For a larger release workflow, the cleaner GitHub pattern is to keep source code in the main project repo and attach DMG files to versioned GitHub Releases instead of committing every binary build into Git history.
+- Added a dynamic `F` interaction prompt for nearby NPCs.
+- Tightened the global interact range so talking requires standing closer to NPCs.
+- Reduced and cleaned up the top-right controls panel.
+- Reworked debug menu spacing so rows and columns no longer overlap.
+- Fixed the debug menu hotkey so only the physical backslash key opens it.
+- Fixed fractional damage-number scaling and set damage numbers to the current 0.5 scale.
+- Added an HTML-safe UI font fallback so the browser build loads reliably.
