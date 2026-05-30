@@ -99,7 +99,28 @@
             <p>Your browser does not support HTML5 canvas.</p>
         </canvas>
     </div>
-    <script type="text/javascript" src="html5game/Delving David.js?cachebust=20260528-223700"></script>
+    <script>
+        window.btoa = function(data) {
+            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+            var output = "";
+            var i = 0;
+
+            while (i < data.length) {
+                var byte1 = data.charCodeAt(i++) & 255;
+                var byte2 = i < data.length ? data.charCodeAt(i++) & 255 : NaN;
+                var byte3 = i < data.length ? data.charCodeAt(i++) & 255 : NaN;
+                var enc1 = byte1 >> 2;
+                var enc2 = ((byte1 & 3) << 4) | (isNaN(byte2) ? 0 : (byte2 >> 4));
+                var enc3 = isNaN(byte2) ? 64 : (((byte2 & 15) << 2) | (isNaN(byte3) ? 0 : (byte3 >> 6)));
+                var enc4 = isNaN(byte3) ? 64 : (byte3 & 63);
+
+                output += chars.charAt(enc1) + chars.charAt(enc2) + chars.charAt(enc3) + chars.charAt(enc4);
+            }
+
+            return output;
+        };
+    </script>
+    <script type="text/javascript" src="html5game/Delving David.js?cachebust=20260530-031000"></script>
     <script>window.onload = GameMaker_Init;</script>
 </body>
 </html>
