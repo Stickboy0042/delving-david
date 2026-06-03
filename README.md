@@ -4,8 +4,9 @@
 
 ## Play Or Download
 
+- Play online: https://stickboy0042.github.io/delving-david/
 - Playable files: [`html/latest/index.html`](html/latest/index.html)
-- Packaged build: [`html/latest`](html/latest)
+- Packaged build: [`html/latest/Delving-David-html.zip`](html/latest/Delving-David-html.zip)
 
 ## Patch Notes
 
@@ -16,4 +17,4 @@
 
 ## Launch
 
-Serve `html/latest` from a local web server, then open `index.html` in a browser.
+Open the GitHub Pages link above, or serve `html/latest` from a local web server and open `index.html`.
