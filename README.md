@@ -10,10 +10,10 @@
 
 ## Patch Notes
 
-- Published the early alpha `0.1.0` build.
-- Added numeric version metadata for platform builds.
-- Synced Lightning Storm sound effects to each individual strike.
-- Includes Bubble Shield updates, baked font handling, and the organized public build workflow.
+- Updated the HTML build with the latest ground grass tileset resource.
+- Added the Ashwake three-pulse echo effect with slightly longer fire-trail range and matching hitbox reach.
+- Refreshed the Ashwake, Stormcall, and Aegis Ward HUD icons.
+- Includes recent Bubble Shield, Stormcall stun, baked font, and public build workflow updates.
 
 ## Launch
 
