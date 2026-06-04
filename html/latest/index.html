@@ -22,12 +22,22 @@
 
         <!-- Set the background colour of the document -->
         <style>
+            html,
             body {
-                background: #0;
+                background: #000000;
                 color: #cccccc;
                 margin: 0px;
                 padding: 0px;
                 border: 0px;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             canvas {
@@ -53,6 +63,14 @@
                 margin: 0px;
                 padding: 0px;
                 border: 0px;
+                width: min(100vw, calc(100vh * 16 / 9));
+                height: min(100vh, calc(100vw * 9 / 16));
+            }
+
+            div.gm4html5_div_class canvas {
+                width: 100%;
+                height: 100%;
+                display: block;
             }
             div.gm4html5_login {
                 padding: 20px;
