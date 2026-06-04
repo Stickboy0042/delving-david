@@ -8,10 +8,11 @@
 
 ## Patch Notes
 
-- Published the early alpha `0.1.0` build.
-- Added numeric version metadata for platform builds.
-- Synced Lightning Storm sound effects to each individual strike.
-- Includes Bubble Shield updates, baked font handling, and the organized public build workflow.
+- Added villager ambient chat bubbles with per-character phrase sets, staggered timing, fewer interruptions, hidden nameplates, and clearer UI-font text.
+- Added and polished the TAB radial inventory, including item dragging, tooltips, staggered animation, and softer menu sound effects.
+- Refined HUD panels for controls, loot, enemies, and time-of-day readability.
+- Added Aegis Ward knockback sound feedback and bow companion spawn/respawn fixes.
+- Includes recent lighting, torch, cloud-shadow, collision, map decor, and project-health updates.
 
 ## Launch
 
