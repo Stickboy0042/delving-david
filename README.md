@@ -6,14 +6,14 @@
 
 - Play online: https://stickboy0042.github.io/delving-david/
 - Playable files: [`html/latest/index.html`](html/latest/index.html)
-- Packaged build: [`html/latest/Delving-David-html.zip`](html/latest/Delving-David-html.zip)
+- Packaged build: [`html/latest/Delving-David-html5.zip`](html/latest/Delving-David-html5.zip)
 
 ## Patch Notes
 
-- Updated the HTML build with the latest ground grass tileset resource.
-- Added the Ashwake three-pulse echo effect with slightly longer fire-trail range and matching hitbox reach.
-- Refreshed the Ashwake, Stormcall, and Aegis Ward HUD icons.
-- Includes recent Bubble Shield, Stormcall stun, baked font, and public build workflow updates.
+- Added the "You Won!" overlay after defeating every enemy, with Keep Playing, Reset, and Quit options.
+- Added a brighter victory fanfare that plays when the win menu appears, then returns to normal music after continuing or resetting.
+- Improved frame-rate-resilient gameplay timing for smoother behavior during 30 FPS caps or performance dips.
+- Centered the HTML game canvas in the browser window.
 
 ## Launch
 
