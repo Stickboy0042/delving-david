@@ -10,10 +10,11 @@
 
 ## Patch Notes
 
-- Added the "You Won!" overlay after defeating every enemy, with Keep Playing, Reset, and Quit options.
-- Added a brighter victory fanfare that plays when the win menu appears, then returns to normal music after continuing or resetting.
-- Improved frame-rate-resilient gameplay timing for smoother behavior during 30 FPS caps or performance dips.
-- Centered the HTML game canvas in the browser window.
+- Added universal farm time so plants and golem farm work continue while the player is in other rooms.
+- Added Bram's repeatable arena invitation, quest marker, arena travel, and return-home loop.
+- Added the inventory screen, paged inventory navigation, and shared grape item display with the radial menu.
+- Added grape harvest loot drops that golems can carry to the receiving chest.
+- Added debug-gated game speed controls, V-sync toggling, a 60 FPS cap, and an on-screen FPS meter.
 
 ## Launch
 
